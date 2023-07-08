@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando em prática</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: plum;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(172, 138, 235);
+            text-decoration: underline;
+        }
+
+        a:active { 
+            color: azure;
+        }
+
+        .especial {
+            background-color: rgba(218, 178, 191, 0.543);
+        }
+
+        .especial::before {
+            content: '⇒';
+        }
+
+        .especial::after {
+            content:'⇐' ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Minha atividade com links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/ruivawp/" target="_blank">Meu Insta</a></li>
+        <li><a href="https://www.youtube.com/channel/UCu8qNEczIwOc2u5wS7dkWgA" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.tiktok.com/@bloom_rp">Meu TikTok</a></li>
+    </ul>
+</body>
+</html>

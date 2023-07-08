@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+
+    }
+    
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav {
+        background-color: rgb(93, 93, 93);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.316);
+        
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+        
+    }
+
+    main { 
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.385);
+    }
+
+    article {
+        background-color: lightgrey;
+        padding: 5px;
+    }
+
+    article > aside {
+        background-color: rgb(177, 177, 177);
+        
+    }
+
+    footer {
+         background-color: black;
+         color: white;
+         text-align: center;
+         padding: 4px;
+         margin: 0px;
+         
+
+    }
+
+    footer > p {
+        margin: 0px;
+    }
+
+    div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50px
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2> Tecnologia Política e Economia</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime suscipit sed similique? Provident sint amet similique quam! Nesciunt eaque esse, sit sapiente molestiae repellendus, neque, vitae dolorem accusantium beatae iste!</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita rerum perspiciatis consequuntur ipsum veritatis non molestias eum dolorem. Laboriosam earum unde dolorum sit ipsam beatae iusto, ullam atque rerum.</p>
+                <aside>
+                    Escrito por José da Silva
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer> 
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
