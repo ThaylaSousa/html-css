@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
+            height: 100vh;
+            /*
             height: 98vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+
+        /* Shorthand - background
+            color > image > position > repeat > (size) 
+            > attachment
+        */
+
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
         }
 
+        
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid rgb(1, 1, 26);
@@ -28,6 +43,10 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora voluptatum error vero iure culpa assumenda exercitationem quae ad asperiores sunt molestiae eaque perspiciatis laudantium, harum rerum sed alias facere quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis est odit natus incidunt aperiam animi temporibus nihil magni ex ad magnam voluptate adipisci reiciendis quidem, maxime ipsum vel deserunt dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam quae omnis perspiciatis eum ex, dolorem sed temporibus, est eligendi similique, cupiditate consectetur hic! Sequi ducimus id asperiores incidunt ipsa?</p>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora voluptatum error vero iure culpa assumenda exercitationem quae ad asperiores sunt molestiae eaque perspiciatis laudantium, harum rerum sed alias facere quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis est odit natus incidunt aperiam animi temporibus nihil magni ex ad magnam voluptate adipisci reiciendis quidem, maxime ipsum vel deserunt dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam quae omnis perspiciatis eum ex, dolorem sed temporibus, est eligendi similique, cupiditate consectetur hic! Sequi ducimus id asperiores incidunt ipsa?</p>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora voluptatum error vero iure culpa assumenda exercitationem quae ad asperiores sunt molestiae eaque perspiciatis laudantium, harum rerum sed alias facere quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis est odit natus incidunt aperiam animi temporibus nihil magni ex ad magnam voluptate adipisci reiciendis quidem, maxime ipsum vel deserunt dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam quae omnis perspiciatis eum ex, dolorem sed temporibus, est eligendi similique, cupiditate consectetur hic! Sequi ducimus id asperiores incidunt ipsa?</p>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora voluptatum error vero iure culpa assumenda exercitationem quae ad asperiores sunt molestiae eaque perspiciatis laudantium, harum rerum sed alias facere quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis est odit natus incidunt aperiam animi temporibus nihil magni ex ad magnam voluptate adipisci reiciendis quidem, maxime ipsum vel deserunt dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam quae omnis perspiciatis eum ex, dolorem sed temporibus, est eligendi similique, cupiditate consectetur hic! Sequi ducimus id asperiores incidunt ipsa?</p>
+
     </main>
 </body>
 </html>
